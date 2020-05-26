@@ -42,10 +42,10 @@ new Fullpage(options?);
 <!-- css -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@joey2018/full-page@1.0.0/dist/full-page.css"
+  href="https://cdn.jsdelivr.net/npm/@joey2018/full-page/dist/full-page.css"
 />
 <!-- js -->
-<script src="https://cdn.jsdelivr.net/npm/@joey2018/full-page@1.0.0/dist/full-page.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@joey2018/full-page/dist/full-page.umd.js"></script>
 ...
 <div id="full-page">
   <div class="section">
