@@ -1,6 +1,6 @@
 {
   "name": "@joey2018/full-page",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "full-page",
   "main": "dist/full-page.cjs.js",
   "module": "dist/full-page.esm.js",
@@ -27,6 +27,9 @@
   },
   "homepage": "https://github.com/BurNing1993/full-page#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/lodash": "^4.14.152",
     "@rollup/plugin-babel": "^5.0.2",
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
@@ -39,9 +42,6 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@types/lodash": "^4.14.152",
     "lodash": "^4.17.15"
   }
 }
