@@ -1,6 +1,6 @@
 {
   "name": "@joey2018/full-page",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "full-page",
   "main": "dist/full-page.cjs.js",
   "module": "dist/full-page.esm.js",

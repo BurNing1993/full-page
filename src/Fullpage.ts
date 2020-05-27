@@ -141,10 +141,17 @@ export default class Fullpage {
     if (endY - this.startY < 0) {
       // 手指向上滑动，对应页面向下滚动
       this.goDown();
-    } else {
-      // 手指向下滑动，对应页面向上滚动
+    } else if (endY - this.startY > 0) {
       this.goUp();
+      // 手指向下滑动，对应页面向上滚动
     }
+    // else {
+    //   if (endY < this.viewHeight * 0.5) {
+    //     this.goUp();
+    //   } else {
+    //     this.goDown();
+    //   }
+    // }
   }
 
   // 初始化函数
